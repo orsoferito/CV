@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<qa_block>
+    <question>Фамилия, имя, отчество</question>
+    <answer>Суворов Виталий Сергеевич</answer>
+</qa_block>
+<qa_block>
+    <question>Е-mail</question>
+    <answer>address@gmail.com</answer>
+</qa_block>
+<qa_block>
+    <question>Телефон</question>
+    <answer>8-(xxx)-xxx-xx-xx</answer>
+</qa_block>
+<qa_block>
+    <question>Год рождения</question>
+    <answer>1986</answer>
+</qa_block>
+<qa_block>
+    <question>Город, в котором живёте</question>
+    <answer>Москва</answer>
+</qa_block>
+<qa_block>
+    <question>Вуз, факультет, специальность, кафедра</question>
+    <answer>МГТУ им. Н.Э. Баумана, Энергомашиностроение, Ракетные двигатели</answer>
+</qa_block>
+<qa_block>
+    <question>Год окончания ВУЗа</question>
+    <answer>2009</answer>
+</qa_block>
+<qa_block>
+    <question>На каком уровне владеете английским языком?</question>
+    <answer>Upper Intermediate</answer>
+</qa_block>
+<qa_block>
+    <question>Чего Вы ожидаете от обучения в Школе?</question>
+    <answer>Получить представление о том, как строится работа с веб-проектами в крупных ИТ-компаниях. Кроме того обрести необходимые навыки веб-разработки для дальнейшего роста в данном направлении.</answer>
+</qa_block>
+<qa_block>
+    <question>Откуда Вы о нас узнали?</question>
+    <answer>От участника одной из других Школ Яндекса</answer>
+</qa_block>
+<qa_block>
+    <question>Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?</question>
+    <answer>От совмещения до 5 дней в неделю в зависимости от этапа вовлеченности</answer>
+</qa_block>
+</root>

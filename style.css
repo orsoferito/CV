@@ -1,0 +1,16 @@
+DIV.header, DIV.footer, DIV.content, DIV.menu {
+    margin: 1em 2em;
+    clear: both;
+}
+
+DIV.content {
+    padding: 2em 0;
+}
+
+A.menu_item {
+    margin: 0;
+    padding: 5px 1em;
+    float: left;
+    border: 1px dotted;
+    background: green;
+}
