@@ -1,50 +1,40 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Vitaly Suvorov - Curriculum Vitae</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="http://www.xiper.net/examples/js/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function()
-        {
-            $.ajax(
-            {
-                type: "GET",
-                url: "Common_QA.xml",
-                dataType: "xml",
-                success: function(xml)
-                {
-                    $(xml).find('qa_block').each(
-                        function()
-                        {
-                            var question = $(this).find('question').text(),
-                                answer = $(this).find('answer').text();
-                            $('<div class="qa_block"></div>').html('<div class="question">' + question + '</div><div class="answer">' + answer + '</div>').appendTo('.qa_list');
-                        }
-                    )
-                }
-                
-            })
-        });
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="js/load_qa_common.js"></script>
+    <script type="text/javascript" src="js/load_qa_exp.js"></script>
+    <script>
+        load_qa_common();
     </script>
 </head>
-
 <body>
 <div class="header" id="top">
     <h1>Виталий Сергеевич Суворов</h1>
     <div class="description">Персональный сайт-резюме</div>
+    <hr>
 </div>
 <div class="menu">
-    <a href="#top" target="_blank" class=menu_item>Общие вопросы</a>
-    <a class=menu_item>Опыт разработки</a>
+    <div class=menu_item onClick="load_qa_common();">Общие вопросы</div>
+    <div class=menu_item onClick="load_qa_exp();">Опыт разработки</div>
 </div>
+<script>
+    $('.menu_item').mouseover(function(){
+        $(this).css('font-style', 'Italic');    
+    });
+    $('.menu_item').mouseout(function(){
+        $(this).css('font-style', 'normal');    
+    });
+</script>
 <div class="content">
-    <div class="qa_list">
-        
+    <div class="qa_list">       
     </div>    
 </div>
-<div class="footer">rufskbbb</div>
+<div class="footer">
+    <br><hr>
+    <span>2012</span>
+</div>
 </body>
 </html>
