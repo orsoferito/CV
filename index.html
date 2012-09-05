@@ -17,15 +17,17 @@
     <hr>
 </div>
 <div class="menu">
-    <div class=menu_item onClick="load_qa_common();">Общие вопросы</div>
-    <div class=menu_item onClick="load_qa_exp();">Опыт разработки</div>
+    <div class=menu_item onClick="load_qa_common();"><strong>Общие вопросы</strong></div>
+    <div class=menu_item onClick="load_qa_exp();"><strong>Опыт разработки</strong></div>
 </div>
 <script>
     $('.menu_item').mouseover(function(){
-        $(this).css('font-style', 'Italic');    
+        $(this).css('font-style', 'Italic');
+        $(this).css('color', 'white');
     });
     $('.menu_item').mouseout(function(){
-        $(this).css('font-style', 'normal');    
+        $(this).css('font-style', 'normal');
+        $(this).css('color', 'black');
     });
 </script>
 <div class="content">
